@@ -1,0 +1,292 @@
+.myNav > ul{
+  display:inline;
+  position: relative;
+  top: 39px;
+  left: 300px;
+}
+
+.myNav > h2{
+
+  color: #F09A11;
+  display:inline-flex;
+  position: relative;
+  top: 10px;
+  right: 380px;
+  font-family: sans-serif;
+  font-size: 30px;
+
+}
+
+.myNav > ul > li{
+font-family: sans-serif;
+  font-size: 20px;
+  list-style-type:none;
+  float: left;
+  padding-left: 40px;
+}
+
+
+div.myNav {
+
+  background-color: #EEEEEE;
+
+  width: 1280px;
+  height: 85px;
+  bottom: 20px;
+
+  z-index: 1;
+  position: sticky;
+  top: 6px;
+
+
+  left: 50%;
+  transform: translateX(-2%);
+
+  background-blend-mode:color-burn;
+
+
+
+
+}
+
+
+
+.search{
+  background-image: url("searchIMG.jpg");
+  position: relative;
+  height: 600px;
+  width: 1265px;
+  right: 10px;
+  bottom: 100px;
+}
+
+.search > span, h1{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  font-family: sans-serif;
+
+}
+
+.search > span{
+
+  position: relative;
+  left: 550px;
+  font-size: 20px;
+}
+
+
+.search > h1{
+
+  margin-top: 4px;
+  font-size: 50px;
+}
+.search > input{
+  border: 1px;
+  border-radius:9px 0 0  9px;
+  position: relative;
+  top: 250px;
+  left: 270px;
+  width: 500px;
+  height: 60px;
+}
+.search > button{
+  background-color: #F09A11;
+  border: 1px;
+  border-radius:0 9px 9px  0;
+  position: relative;
+  top: 250px;
+  left: 266px;
+  width: 200px;
+  height: 62px;
+}
+.propertyH{
+  position: relative;
+  bottom: 340px;
+}
+
+.propertyH > h1{
+    color: black;
+    font-family: sans-serif;
+}
+
+
+.currentHouse{
+  background-image: url("myHouse.jpg");
+  border-radius: 9px;
+  position: relative;
+  width: 1200px;
+  height: 500px;
+  left: 30px;
+  bottom: 100px;
+}
+
+
+.currentHDesc{
+  border-radius: 9px;
+  background-color: #EEEEEE;
+  position: relative;
+  width: 700px;
+  height: 200px;
+  top: 300px;
+  left: 300px;
+}
+.currentHouse > .infoHouse > h1{
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  z-index: 9;
+
+
+}
+
+.currentHouse > .infoHouse{
+  position: relative;
+  right: 36%;
+  bottom: 20%;
+}
+.currentHDesc > i{
+  font-size: 40px;
+  position: relative;
+  top: 100px;
+  left: 110px;
+  margin-left: 60px;
+}
+.fa-wifi{
+  color: red;
+}
+
+
+.fa-swimmer{
+  color: #6DECAD;
+}
+
+.fa-user-secret{
+    color: #F9BA46;
+}
+.fa-map-marker-alt{
+    color: #2C91EE;
+}
+
+
+.allProparties> ul{
+  display: inline;
+  position: relative;
+  left:80px;
+}
+.allProparties> ul> li{
+
+
+  padding-right: 30px;
+  list-style-type: none;
+  float: left;
+  position: relative;
+  top: 70px;
+  width: 350px;
+  height: 300px;
+}
+.allProparties> .rowTwo{
+  position: relative;
+  top: 30px;
+}
+.allProparties> ul> #thisHouse >img{
+  position: relative;
+  width: 350px;
+  height: 250px;
+
+}
+
+.allProparties> ul> #thisHouse > span{
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.allProparties> ul> #thisHouse > button{
+  background-color: yellow;
+  border: 1px;
+  border-radius: 8px;
+  position: relative;
+  bottom: 265px;
+  left: 20px;
+  height: 28px;
+}
+
+.allProparties> ul> #thisHouse > #by{
+  position: relative;
+  bottom: 240px;
+  right: 30px;
+
+}
+.allProparties > button{
+
+  border-color: black;
+  border-radius: 5px;
+  position: relative;
+  top: 150px;
+  height: 50px;
+  width: 400px;
+  left: 450px;
+  background-color: white
+}
+
+.allProparties > button:hover{
+    background-color: #9FE6A0;
+}
+.infoDescription{
+  border-radius: 5px;
+  background-color: gray;
+  position: relative;
+  height: 400px;
+  width: 440px;
+  left: 450px;
+  z-index: 1;
+}
+.infoDescription> span{
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  position: relative;
+  left: 35px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+.surpriseInfo > ul > li{
+
+
+  list-style-type: none;
+  padding-bottom: 25px;
+  font-family: sans-serif;
+  font-size: 25px;
+  position: relative;
+  top: 80px;
+  left: 30px;
+
+}
+
+
+.surpriseInfo > ul > li > .fas{
+  color: blue;
+}
+
+.surpriseInfo{
+  border-radius: 10px;
+  position: relative;
+  top: 200px;
+  left: 30px;
+  height: 450px;
+  width: 1200px;
+  background-color: #F9F9F9;
+
+}
+
+.surpriseInfo>img{
+
+  display: inline;
+    border-radius: 10px;
+  position: relative;
+  left:  600px;
+  bottom: 260px;
+  height: 400px;
+  width: 450px;
+}
